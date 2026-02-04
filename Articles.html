@@ -9,23 +9,56 @@
 <body>
     
      <!-- Navigation -->
-  <nav>
-    <h1 class="logo">Helping Hands</h1>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="articles.html">Articles</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+   <header>
+        <nav>
+            <a href="index.html" class="logo"><i class="fas fa-leaf"></i> Care Foundation</a>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Our Work</a></li>
+                <li><a href="articles.html">Stories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" class="donate-btn">Donate Now</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-  <h2>Latest Articles</h2>
-  <article>
-    <h3>Why Community Matters</h3>
-    <p>Strong communities create lasting change.</p>
-  </article>
+ <main class="container">
+    <h1>Stories from the Field</h1>
+
+    <div class="project-grid">
+        <article class="card">
+            <img src="https://picsum.photos/400/250?smile" alt="Article 1">
+            <div class="card-content">
+                <small>SUCCESS STORY</small>
+                <h3>How Maria Built Her Own Business</h3>
+                <p>After receiving a micro-loan from Care Foundation Maria started a textile shop that now employs 10 women in her village.</p>
+                <a href="#">Read Full Story &rarr;</a>
+            </div>
+        </article>
+
+        <article class="card">
+            <img src="https://picsum.photos/400/250?doctor" alt="Article 2">
+            <div class="card-content">
+                <small>HEALTH</small>
+                <h3>Mobile Clinics Reach the Unreachable</h3>
+                <p>Our team of volunteer doctors trekked for three days to reach remote settlements in the Himalayas.</p>
+                <a href="#">Read Full Story &rarr;</a>
+            </div>
+        </article>
+
+        <article class="card">
+            <img src="https://picsum.photos/400/250?meeting" alt="Article 3">
+            <div class="card-content">
+                <small>UPDATE</small>
+                <h3>2025 Annual Impact Report</h3>
+                <p>Transparency is key. Download our latest financial report to see exactly how your donations were used.</p>
+                <a href="#">Download PDF &rarr;</a>
+            </div>
+        </article>
+    </div>
 </main>
+
 <script src="index.js"></script>
 </body>
 </html>
