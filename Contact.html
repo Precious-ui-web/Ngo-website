@@ -8,51 +8,55 @@
 </head>
 <body>
    <!-- Navigation -->
-   <header>
+   <header class="header-section">
         <nav>
             <a href="index.html" class="logo"><i class="fas fa-leaf"></i>Care Foundation</a> 
-            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Our Work</a></li>
-                <li><a href="articles.html">Stories</a></li>
+                <li><a href="articles.html">Articles</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="#" class="donate-btn">Donate Now</a></li>
             </ul>
         </nav>
     </header>
 
   
   <main class="container">
+
     <h1>Get in Touch</h1>
 
     <div class="contact-wrapper">
-        <div>
-            <h2>Headquarters</h2>
-            <p>We love hearing from supporters, partners, and volunteers.</p>
+        <div class="contact-items">
             
-            <div style="margin-top: 20px;">
-                <p><i class="fas fa-map-marker-alt"></i>
-                     123 Humanity road, Suite 400, Delta<br> Nigeria</p>
-                <p><i class="fas fa-phone"></i> + (234) 123-4567</p>
-                <p><i class="fas fa-envelope"></i> hello@carefoundation.org</p>
+            <p>We love hearing from supporters, partners, and volunteers.</p>
+
+            <h2>Headquarters</h2>
+            <div>
+                <p>
+                     123 Humanity road, Suite 400, Delta Nigeria</p>
+                <p> + (234) 123-4567</p>
+                <p> hello@carefoundation.org</p>
             </div>
 
+            <div>
             <h3>Press Inquiries</h3>
             <p>For media kits and interview requests, please contact press@carefoundation.org.</p>
+            </div>
         </div>
+    </div>
 
         <form id="contactForm">
+            <div class="form-group-container">
             <div class="form-group">
-                <label>Name</label>
+                <label>Name:</label>
                 <input type="text" required placeholder="Jane Doe">
             </div>
             <div class="form-group">
-                <label>Email</label>
+                <label>Email:</label>
                 <input type="email" required placeholder="jane@example.com">
             </div>
             <div class="form-group">
-                <label>Subject</label>
+                <label>Subject:</label>
                 <select>
                     <option>General Inquiry</option>
                     <option>Volunteering</option>
@@ -64,9 +68,9 @@
                 <label>Message</label>
                 <textarea rows="5" required placeholder="Write your message here..."></textarea>
             </div>
-            <button type="submit" class="btn-primary">Send Message</button>
+            <button type="submit" class="btn">Send Message</button>
+            </div>
         </form>
-    </div>
 </main>
 
 
